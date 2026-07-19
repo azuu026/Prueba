@@ -1,4 +1,32 @@
 /* =========================
+HEADER LOGO
+========================= */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 45px;          /* Ajusta este valor al tamaño que quieras para tu menú */
+    height: 45px;         /* Mantiene el contenedor cuadrado */
+    object-fit: contain;  /* Evita que el logo se estire o se deforme */
+    display: block;
+}
+
+.logo span {
+    color: #ffffff;       /* Color del texto del logo (ELECTRO) */
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.logo span span {
+    color: #00d9ff;       /* Color azul eléctrico para la palabra (NOVA) */
+}
+
+/* =========================
 CARD DEL LOGO
 ========================= */
 .logo-card {
