@@ -18,7 +18,14 @@
 
 .logo-card img{
 
-    width:180px;
+    width:120px !important;
+    height:auto !important;
+    max-width:120px !important;
+    max-height:120px !important;
+    object-fit:contain;
+    display:block;
+
+}
 
 }
 
