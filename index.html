@@ -451,4 +451,19 @@
             if (mobileMenuBtn && navMenu) {
                 mobileMenuBtn.addEventListener('click', () => {
                     mobileMenuBtn.classList.toggle('active');
-                    navMenu.classList.
+                    navMenu.classList.toggle('active');
+                });
+
+                // Cerrar el menú automáticamente al hacer clic en cualquier enlace
+                document.querySelectorAll('.nav-link, .btn-nav').forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenuBtn.classList.remove('active');
+                        navMenu.classList.remove('active');
+                    });
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
