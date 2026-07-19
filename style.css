@@ -441,11 +441,12 @@ ul {
 
 .memberships-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 40px;
-    max-width: 960px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: var(--max-width); /* Ajustado a 1200px automáticos */
     margin: 0 auto;
 }
+
 
 .membership-card {
     background-color: var(--light-bg);
